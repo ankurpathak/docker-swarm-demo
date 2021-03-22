@@ -71,7 +71,7 @@ Vagrant.configure("2") do |config|
   # end
   #
     config.vm.provider "virtualbox" do |vb|
-      vb.memory = "2048"
+      #vb.memory = "2048"
     end
 
   # View the documentation for the provider you are using for more
